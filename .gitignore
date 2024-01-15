@@ -12,7 +12,6 @@
 .env
 node_modules
 dist 
-build
 
 # Private info
 private/*.txt
