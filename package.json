@@ -1,0 +1,21 @@
+{
+  "name": "starknet-seed-to-pk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "production": "node build/index.js",
+    "start": "npx tsx index.ts",
+    "dev": "npx tsx --watch index.ts"
+  },
+  "keywords": [],
+  "author": "Salce",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^6.10.0",
+    "npx": "^10.2.2",
+    "starknet": "^5.24.3",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
